@@ -1,6 +1,13 @@
 # rest-api-golang
 go restful api
 
+| Description      | Endpoint | Method
+| :---        |    :----   | :---
+| get all people      | `/people`       | `GET`
+| get a person by id   | `/people/{id}`       | `GET`
+| update a person by id    | `/people/{id}`       | `PUT`
+| delete a person by id   | `/people/{id}`        | `DELETE`
+
 #### Setup and running locally
 1. clone this repository
     - `git clone git@github.com:wafulasam/rest-api-golang.git`
