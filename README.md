@@ -4,6 +4,7 @@ go restful api
 | Description      | Endpoint | Method
 | :---        |    :----   | :---
 | get all people      | `/people`       | `GET`
+| add a person      | `/people`       | `POST`
 | get a person by id   | `/people/{id}`       | `GET`
 | update a person by id    | `/people/{id}`       | `PUT`
 | delete a person by id   | `/people/{id}`        | `DELETE`
